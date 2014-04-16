@@ -52,7 +52,7 @@ class HelloControllerSpec extends Specification {
 
         where:
         url                                 || reversedString
-        'http://localhost:8080/reverse/uno' || 'onu'
+        'http://localhost:8080/reverse/uno  ' || 'onu'
         'http://localhost:8080/reverse/ufc' || 'cfu'
     }
 
